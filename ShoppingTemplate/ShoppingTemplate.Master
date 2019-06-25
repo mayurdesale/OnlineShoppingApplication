@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ShoppingTemplate.master.cs" Inherits="ShoppingTemplate.ShoppingTemplate" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src= "Scripts/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/popper.min.js"></script>
+    <script src="Scripts/bootstrap.min.js" ></script>
+    <link href="Content/bootswatch/flatly/bootstrap.min.css" rel="stylesheet"/>
+    <link href="Content/CSS/HomePageStyle.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="HomePage.aspx"> <img src="HomePageImages/amazon_PNG25.png" style="height: 35px; widows: 55px" /> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="HomePage.aspx">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+    </ul>
+     
+  </div>
+</nav>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainMaster" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+         
+<!--Footer 1-->
+<a href="#" class="btn border-0 text-white btn-lg mt-4" style="width: 100%; background-color: #385166">Back to top</a>
+
+<!--Footer 2-->
+<div style="background-color: #1c2c44"><br><br>
+    <center>
+        <table class="col-8">
+            <tr>
+                <th>Get to Know Us</th>
+                <th>Connect with Us</th>
+                <th>Make Money with Us</th>
+                <th>Let Us Help You</th>
+            </tr>
+
+            <tr>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">About Us</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Facebook</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Sell on Amazon</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Your Account</a></td>
+            </tr>
+            <tr>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Careers</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Twitter</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Become an Affiliate</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Return Centre</a></td>
+            </tr>
+
+            <tr>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Press Release</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Instagram</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Fulfilment by Amazon</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">100% Purchase Protection</a></td>
+            </tr>
+
+            <tr>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Amazon Cares</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#"></a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Advertise Your Product</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Amazon App Download</a></td>
+            </tr>
+
+            <tr>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Gift a smile</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#"></a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Amazon Pay on merchants</a></td>
+                <td><a name="country" style="color: white;font-size: 13px;" href="#">Amazon Assistant Download</a></td>
+            </tr>
+        </table>
+    </center>   
+    <br>
+    <div style="background-color:  #232F3E"><hr class="bg-secondary"><br>
+            <div>
+            <a href="#"><center><img src="HomePageImages/amazon_PNG25.png" style="height: 35px; widows: 55px" alt=""/></center></a>
+            </div><br>
+            <table class="col-8" align="center">
+                <tr>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Australia</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Brazil</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Canada</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">China</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">France</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Germany</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Italy</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Japan</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Mexico</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Netherlands</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">Spain</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">United Arab Emirates</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">United Kingdom</a></td>
+                    <td><a  name="country" href="#" style="color: white;font-size: 13px;">United States</a></td>     
+                </tr>
+            </table>
+            <br>
+            <br>
+        </div>
+</div>
+
+    </form>
+</body>
+</html>

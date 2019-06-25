@@ -1,0 +1,35 @@
+﻿body {
+    background-color: #e8ebef;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 80px;
+    outline: black;
+    background-size: 100%, 100%;
+    background-image: none;
+}
+
+    .carousel-control-next-icon:after {
+        content: '>';
+        font-size: 45px;
+        color: gray;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 45px;
+        color: gray;
+    }
+
+#rupee {
+    font-size: 25px;
+}
+
+.btn-lg {
+    border-radius: 0;
+}
+
+tr {
+    color: white;
+}
